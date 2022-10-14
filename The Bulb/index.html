@@ -83,15 +83,15 @@
     <h3>Registration form</h3>
     <form action="">
         <!-- <label for="">First Name:</label> -->
-        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="First Name" id="firstName">
 
         <br><br>
         <!-- <label for="">Last Name:</label> -->
-        <input type="text" placeholder="Last Name">
+        <input type="text" placeholder="Last Name" id="secondName">
 
         <br><br>
 
-        <h4>Gender:</h4>
+        <h4 id="gender">Gender:</h4>
         <div id="sex">
 
             <label for="">Male:</label>
@@ -102,6 +102,7 @@
          </div>
 
         <br>
+    <section id="flex1">
         <label for="country" class="count">Country:</label>
         <select name="country" id="country" aria-placeholder="Country">
             <option value="">Select your Country...</option>
@@ -114,37 +115,41 @@
             <option value="france">France</option>
         </select>
 
-        <br><br>
-        <label for="" id="dob">Date of Birth:</label>
-        <input type="date">
-
+            <br><br>
+            <label for="" id="dob">Date of Birth:</label>
+            <input type="date">
+    </section>
         <br><br>
         <!-- <label for="">Email Address:</label> -->
-        <input type="email" placeholder="Email">
+        <input type="email" placeholder="Email" id="email">
 
-        <br><br>
+        <br>
+
+    <section id="flex2">
         <!-- <label for="">Phone Number:</label> -->
         <input type="tel" placeholder="Phone Number">
 
         <br><br>
         <!-- <label for="">Age:</label> -->
         <input type="number" placeholder="Age">
+    </section>
 
-        <br><br>
+    <section id="flex3">
         <!-- <label for="">Password:</label> -->
         <input type="password" placeholder="Password">
 
         <br><br>
         <!-- <label for="">Confirm Password:</label> -->
         <input type="password" placeholder="Confirm Password">
+    </section>
 
         <br><br>
-        <label for="" id="pics">Photo:</label>
-        <input type="file">
+        <label for="" id="pic">Photo:</label>
+        <input type="file" id="pics">
 
         <br><br>
         <!-- <label for="">Address:</label> -->
-        <textarea name="" id="" cols="44" rows="5" placeholder="Address"></textarea>
+        <textarea name="" id="" cols="58" rows="7" placeholder="Address"></textarea>
         <button type="submit">SUBMIT</button>
     </form>
 </body>

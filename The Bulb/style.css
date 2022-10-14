@@ -35,27 +35,43 @@ form{
     border: 1px solid #6100aa;
     margin: auto;
     padding: 35px 24px;
-    width: 400px;
+    width: 500px;
     /* border-radius: 5px; */
     background-color: #6100aa;
     text-decoration: solid;
 }
-h4{
+#firstName{
+    width: 450px;
+}
+#secondName{
+    width: 450px;
+}
+#gender{
     color: #d4adf9;
     margin-top: 1px;
+    display: flex;
 }
 #sex{
     display: flex;
     color: #d4adf9;
+    width: 400px;
+    padding-left: 100px;
 }
 .count{
     color: #d4adf9;
 }
+#country{
+    width: 150px;
+}
 #dob{
+    color: #d4adf9;
+}
+#pic{
     color: #d4adf9;
 }
 #pics{
     color: #d4adf9;
+    width: 450px;
 }
 select{
     width: 350px;
@@ -65,8 +81,26 @@ select{
     color: #d4adf9;
     margin: auto;
 }
+#flex1{
+    display: flex;
+    background-color: #6100aa;
+    gap: 5px;
+}
+#flex2{
+    display: flex;
+    background-color: #6100aa;
+    gap: 10px;
+}
+#flex3{
+    display: flex;
+    background-color: #6100aa;
+    gap: 10px;
+}
+#email{
+    width: 450px;
+}
 input{
-    width: 350px;
+    width: 220px;
     padding: 5px;
     border: 1px solid #8301e9;
     background-color: #8301e9;
@@ -84,7 +118,7 @@ button{
     padding: 5px;
     background-color:  #92f8bd ;
     text-align: center;
-    width: 350px;
+    width: 450px;
     border: 1px solid #92f8bd;
     font-size: 12px;
     cursor: pointer;
