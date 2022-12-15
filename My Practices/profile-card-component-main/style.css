@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    margin-top: 170px;
+    background-color: hsl(0, 33%, 98%);
+    font-size: 18px;
+    width: 320px;
+    height: 380px;
+    text-align: center;
+    font-family: Kumbh Sans;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+#contain{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 20px;
+    margin-top: 50px;
+}
+#imgDiv{
+    background-color: hsl(0, 33%, 98%);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 75px;
+    right: 110px;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 4px;
+}
+#victorPic{
+    border-radius: 50%;
+}
+#age{
+    font-size: 18px;
+    color: hsl(227, 10%, 46%);
+    padding-top: 5px;
+}
+#place{
+    font-size: 13px;
+}
+hr{
+    margin-top: 20px;
+    color: hsl(0, 0%, 59%);
+}
+#con{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    line-height: 1px;
+}
+h3{
+    color: hsl(229, 23%, 23%);
+}
+p{
+    font-size: 12px;
+    color:  hsl(0, 0%, 59%);
+}

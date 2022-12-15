@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap');
+
+body {
+    padding: 10px 40px;
+}
+#navBar {
+    display: flex;
+    gap: 50px;
+    
+}
+#container {
+    display: flex;
+    padding: 30px 70px;
+    gap: 60px;
+}
+
+#imgTop {
+    padding-top: 10px;
+}
+a:link {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Epilogue;
+    font-family: Epilogue;
+    font-size: 13px;
+}
+.topBar {
+    padding-top: 15px;
+    color: hsl(0, 0%, 41%);
+}
+#topRight {
+    padding-left: 48%;
+    display: flex;
+    gap: 68px;
+}
+#reg {
+    color: hsl(0, 0%, 41%);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 41%);
+    box-shadow: 0 0 3px;
+}
+#con {
+    padding: 40px 70px 0 70px;
+    width: 900px;
+    height: 500px;
+}
+h1 {
+    font-size: 65px;
+    font-family: Epilogue;
+}
+p {
+    font-family: Epilogue;
+    font-size: 15px;
+    color: hsl(0, 0%, 41%);
+    line-height: 23px;
+}
+#imgLogo {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-top: 90px;
+}
+#imgPics {
+    width: 570px;
+    height: 540px;
+}
+#learnMore {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+}
+#learnMore:hover {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+    border: 1px solid;
+}

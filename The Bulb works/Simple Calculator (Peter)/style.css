@@ -1,0 +1,40 @@
+body{
+    background-color:   #FFFFF0;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFE4E1;
+}
+#container{
+    background-color:   #2F4F4F ;
+    width: 200px;
+    padding: 30px;
+    margin-top: 200px;
+    border-radius: 10px;
+}
+button{
+    width: 60px;
+    height: 30px;
+    background-color:  	#D3D3D3;
+    font-size: 20px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:  	#778899;
+}
+#bot{
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+}
+input{
+    width: 190px;
+    border-radius: 5px;
+}
+#result{
+    background-color: #778899;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
